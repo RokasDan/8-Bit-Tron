@@ -1,6 +1,6 @@
 ![](5.png)
 # 8-Bit-Tron
- 8-Bit-Tron is virtual Instrument sequencer. The prototype was 
+ 8-Bit-Tron is virtual Chromatic Instrument sequencer. The prototype was 
 created with Pure Data visual Programming language.
 
 The sequencer has sixteen note patterns for four different sound generators. 
