@@ -13,4 +13,4 @@ In order to try out the program you need to have Pure Data installed on your
 system and launch The 8 Bit Tron (MAIN PATCH).pd
 
 Video example of the instrument: 
-https://studio.youtube.com/video/OAt2bsDDgok/edit
+https://www.youtube.com/watch?v=OAt2bsDDgok
