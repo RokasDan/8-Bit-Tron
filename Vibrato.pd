@@ -1,0 +1,23 @@
+#N canvas -8 -8 1366 685 10;
+#X obj 148 109 osc~;
+#X floatatom 148 80 5 0 0 0 - - -;
+#X obj 147 144 *~;
+#X floatatom 565 128 5 0 0 0 - - -;
+#X obj 133 185 +~;
+#X obj 134 230 outlet~;
+#X obj 132 31 inlet~;
+#X obj 172 31 inlet;
+#X obj 565 35 inlet;
+#X text 189 99 Sine wave Oscilator which changes the frequency of the
+original patch ocilator.;
+#X text 172 144 The mutiply object controls the depth of the vibrato
+;
+#X text 185 79 The number object controls the rate of the vibrato;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;
+#X connect 2 0 4 1;
+#X connect 3 0 2 1;
+#X connect 4 0 5 0;
+#X connect 6 0 4 0;
+#X connect 7 0 1 0;
+#X connect 8 0 3 0;

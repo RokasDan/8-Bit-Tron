@@ -1,0 +1,11 @@
+#N canvas -8 -8 1366 685 10;
+#X obj 237 56 inlet~;
+#X obj 237 168 outlet~;
+#X obj 237 96 phasor~ 440;
+#X obj 237 126 expr~ (min ($v1 \, 1 - $v1) -0.25) *4;
+#X text 324 94 Sawtooth wave ocilator;
+#X text 464 127 sawtooth wave is being converted to a triangle wave
+;
+#X connect 0 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 1 0;

@@ -1,0 +1,22 @@
+#N canvas 340 121 450 300 10;
+#X obj 248 16 inlet;
+#X obj 247 207 outlet;
+#X obj 248 42 sel 0 1 2 3 4;
+#X text -104 42 This object sends a bang according to the value of
+the>>> radio botton grid;
+#X text -117 85 When a bang is recieved from the select object these
+objects sends a message to activate a specific drum sample> to which
+they are mapped to;
+#X msg 248 93 0;
+#X msg 262 110 1;
+#X msg 277 127 2;
+#X msg 291 144 3;
+#X connect 0 0 2 0;
+#X connect 2 1 5 0;
+#X connect 2 2 6 0;
+#X connect 2 3 7 0;
+#X connect 2 4 8 0;
+#X connect 5 0 1 0;
+#X connect 6 0 1 0;
+#X connect 7 0 1 0;
+#X connect 8 0 1 0;

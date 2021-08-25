@@ -1,0 +1,11 @@
+#N canvas -8 -8 1366 685 10;
+#X obj 237 83 phasor~ 440;
+#X obj 237 110 *~ 2;
+#X obj 237 135 -~ 1;
+#X obj 237 56 inlet~;
+#X obj 237 168 outlet~;
+#X text 299 115 Sawtooth wave ocilator;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 4 0;
+#X connect 3 0 0 0;

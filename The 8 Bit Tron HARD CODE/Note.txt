@@ -1,0 +1,55 @@
+#N canvas 0 0 450 300 10;
+#X obj 248 268 line;
+#X obj 112 195 makenote 64 250;
+#X msg 248 237 1 0;
+#X msg 282 237 0 150;
+#X msg 320 178 60;
+#X msg 248 93 72;
+#X msg 262 110 69;
+#X msg 306 161 62;
+#X msg 277 127 67;
+#X msg 291 144 65;
+#X obj 248 42 sel 0 1 2 3 4 5 6;
+#X text -112 41 Select object which sends a bang acording to the selected>>
+radio botton grid value to a note message.;
+#X text -116 93 The Note messages which send midi info if a bang is
+>>>>>> recieved. The notes are made to be in a Pentatonic scale of
+C \, D \, F \, G \, A \, C whcich allowes any random combination of
+notes to be in conectible pitch.;
+#X text -246 194 Object which creates a note when midi information
+or in >>> this case a midi message is recieved;
+#X text -126 257 The two messages and the line object controle the
+Attack >> and Reales of the note. It also tells the note to playng
+no more than 150 part of a millisecond;
+#X obj 248 16 inlet;
+#X obj 112 227 outlet;
+#X obj 248 290 outlet;
+#X connect 0 0 17 0;
+#X connect 1 0 16 0;
+#X connect 2 0 0 0;
+#X connect 3 0 0 0;
+#X connect 4 0 1 0;
+#X connect 4 0 2 0;
+#X connect 4 0 3 0;
+#X connect 5 0 1 0;
+#X connect 5 0 2 0;
+#X connect 5 0 3 0;
+#X connect 6 0 1 0;
+#X connect 6 0 2 0;
+#X connect 6 0 3 0;
+#X connect 7 0 2 0;
+#X connect 7 0 3 0;
+#X connect 7 0 1 0;
+#X connect 8 0 1 0;
+#X connect 8 0 2 0;
+#X connect 8 0 3 0;
+#X connect 9 0 1 0;
+#X connect 9 0 2 0;
+#X connect 9 0 3 0;
+#X connect 10 1 5 0;
+#X connect 10 2 6 0;
+#X connect 10 3 8 0;
+#X connect 10 4 9 0;
+#X connect 10 5 7 0;
+#X connect 10 6 4 0;
+#X connect 15 0 10 0;

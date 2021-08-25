@@ -1,0 +1,21 @@
+#N canvas 0 0 1362 685 10;
+#X obj 139 191 *~;
+#X obj 153 119 +~ 1;
+#X obj 153 150 *~ 0.5;
+#X obj 153 90 osc~ 0.5;
+#X obj 153 30 inlet;
+#X floatatom 153 61 5 0 0 0 - - -;
+#X obj 139 -2 inlet~;
+#X obj 140 224 outlet~;
+#X text 201 13 Inlets from the original patch;
+#X text 199 225 Outlet to the original patch;
+#X text 219 105 Ocilator that modulates the Amplitude content of the
+original sound;
+#X text 196 60 The number box controls the rate of the tremolo;
+#X connect 0 0 7 0;
+#X connect 1 0 2 0;
+#X connect 2 0 0 1;
+#X connect 3 0 1 0;
+#X connect 4 0 5 0;
+#X connect 5 0 3 0;
+#X connect 6 0 0 0;
