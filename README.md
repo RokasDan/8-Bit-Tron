@@ -3,10 +3,9 @@
 
 8-Bit-Tron is a virtual chromatic sequencer instrument that was created using Pure Data Extended visual programming language. This project allows users to create and manipulate music using a unique interface that combines traditional note sequencing with simple audio production effects.
 
-
-8-Bit-Tron is a virtual Chromatic Instrument sequencer. The prototype was created with Pure Data extended visual Programming language.
-
 Check out the [video example of the instrument](https://www.youtube.com/watch?v=ulqRqfumAS0).
+
+# Instructions
 
 To try out the 8-Bit-Tron instrument, follow these steps:
 
