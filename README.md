@@ -1,17 +1,16 @@
-![](5.png)
 # 8-Bit-Tron
- 8-Bit-Tron is virtual Chromatic Instrument sequencer. The prototype was 
-created with Pure Data visual Programming language.
+![](5.png)
 
-The sequencer has sixteen note patterns for four different sound generators. 
-Three of the sound generators are digital sound waves (Triangle, Sawtooth and Square). 
-Additionally there are affects made such as reverb, distortion and EQ effects.
+8-Bit-Tron is a virtual chromatic sequencer instrument that was created using Pure Data Extended visual programming language. This project allows users to create and manipulate music using a unique interface that combines traditional note sequencing with simple audio production effects.
 
 
-# Instructions
-In order to try out the program you need to have Pure Data installed on your 
-system and launch The 8 Bit Tron (MAIN PATCH).pd
+8-Bit-Tron is a virtual Chromatic Instrument sequencer. The prototype was created with Pure Data extended visual Programming language.
 
-# Video
-Video example of the instrument: 
-https://www.youtube.com/watch?v=OAt2bsDDgok
+Check out the [video example of the instrument](https://www.youtube.com/watch?v=ulqRqfumAS0).
+
+## Instructions
+
+To try out the program, you will need to have Pure Data extended installed on your system. Once you have installed it, launch "The 8 Bit Tron (MAIN PATCH).pd".
+
+You can download Pure Data Extended [here](https://puredata.info/downloads/pd-extended).
+
