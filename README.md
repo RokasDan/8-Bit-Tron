@@ -8,9 +8,10 @@
 
 Check out the [video example of the instrument](https://www.youtube.com/watch?v=ulqRqfumAS0).
 
-## Instructions
+To try out the 8-Bit-Tron instrument, follow these steps:
 
-To try out the program, you will need to have Pure Data extended installed on your system. Once you have installed it, launch "The 8 Bit Tron (MAIN PATCH).pd".
+1. Download and install Pure Data Extended from the [official website](https://puredata.info/downloads/pd-extended).
+2. Launch the `8 Bit Tron (MAIN PATCH).pd` file from the downloaded files.
 
-You can download Pure Data Extended [here](https://puredata.info/downloads/pd-extended).
-
+That's it! You should now be able to use the 8-Bit-Tron instrument. If you have any questions or feedback, feel free to reach out.
+If you would like to read more about this instrument, please visit my [website](https://rokasdanevicius.com/BitTron).
